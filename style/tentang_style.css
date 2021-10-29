@@ -1,0 +1,184 @@
+body {
+    font-family: "poppins";
+}
+
+/* navbar */
+.navbar-brand{
+    font-weight: 600;
+}
+
+.navbar {
+
+    padding-top: 15px;
+}
+
+
+
+/* Jumbotron */
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+
+.jumbotron {
+    background-image: url(../img/banner_kabinet.png);
+    background-size: cover;
+    height: 400px;
+}
+.jumbotron-footer {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.jumbotron-footer {
+    background-color: #0D3F8A;
+    background-size: cover;
+    height: 370px;
+}
+
+.jumbotron-sosmed {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.jumbotron-sosmed {
+    background-color: #0D3F8A;
+    background-size: cover;
+    height: 100px;
+    margin-top: -20px;
+}
+
+.jumbotron-credits {
+    padding-top: 10px;
+    color: white;
+}
+
+.jumbotron-credits {
+    background-color: #08306D;
+    background-size: cover;
+    height: 50px;
+    margin-top: -35px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Judul Banner */
+.judul {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.display-4 {
+    font-size: 30px;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+
+.fungsi {
+    color: white;
+}
+
+.footer-text {
+    padding: 50px;
+    background-color: #0D3F8A;
+    color: white;
+}
+
+.info-footer {
+    line-height: 0.7;
+}
+
+.info-footer p {
+    font-size: 14px;
+}
+
+.peta {
+    margin-top: -40px;
+}
+
+.sosmed {
+    margin-top: -10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #0D3F8A;
+    color: white;
+}
+
+.sosmed a img{
+    width: 40px;
+}
+
+.tampil-horizontal {
+    margin-left: -24px;
+}
+
+.tampil-horizontal ul {
+    text-align: center;
+}
+
+.tampil-horizontal ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.tampil-horizontal ul li a img{
+    width: 28px;
+}
+
+
+
+
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        color: white !important; 
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    }
+
+    .nav-link {
+        margin-right: 10px;
+    }
+
+    .nav-link:hover {
+        border-bottom: 3px solid white;
+        margin-bottom: -3px;
+    }
+
+    .jumbotron {
+        margin-top: -90px;
+        height: 550px;
+    }
+
+    .judul {
+        margin-top: 200px;
+    }
+
+    .display-4 {
+        font-size: 80px;
+    }
+
+    .info-panel {
+        margin-top: -125px;
+    }
+
+    .info-panel img {
+        width: 550px;
+    }
+
+    .jumbotron-footer {
+        height: 175px;
+    }
+
+    .tampil-horizontal ul li a img{
+        width: 40px;
+    }
+}

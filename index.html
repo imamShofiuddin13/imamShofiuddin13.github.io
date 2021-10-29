@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/beranda_style.css">
+
+    <title>Beranda</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/h1mit.png" alt="himit" width="55px">Himit</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" style="border-bottom: 3px solid white ; margin-bottom: -3px;" href="index.html">Beranda</a>
+            <a class="nav-link" href="tentang.html">Tentang</a>
+            <a class="nav-link" href="artikel.html">Artikel</a>
+            <a class="nav-link" href="kabinet.html">Kabinet</a>
+            <a class="nav-link" href="galeri.html">Galeri</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- END Navbar -->
+
+    <!-- Welcome Section -->
+
+    <section class="container-md-fluid" id="beranda">
+        <div class="welcome text-white d-flex justify-content-center flex-column">
+            <h1 style="margin-bottom: 5px;">Selamat Datang</h1>
+            <h3>Di Official Website HIMIT PENS</h3>
+            <div class="tombol my-3">
+              <a href="#departemen" class="btn btn-lg rounded-pill col-xl-2" style="background-color: #E44A5F; border: none; color: white;">Explore HIMIT</a>
+            </div>
+        </div>
+        <div class="wrapper col-10 m-auto">
+          <div class="panel-info bg-white p-4 shadow">
+              <div class="row md">
+                <div class="caption col-lg">
+                  <h2>Sekilas tentang HIMIT</h2>
+                  <p>Himpunan Mahasiswa Teknik Informatika (HIMIT) PENS merupakan himpunan yang berkedudukan di Departemen Teknik Informatika dan Komputer Politeknik Elektronika Negeri Surabaya. HIMIT PENS didirikan pada tanggal 11 Nopember 2000.
+                  </p>
+                </div>
+                <img src="img/Pens.png" class="col-2" alt="Pens">
+                <img src="img/HIMIT.png" class="col-2" alt="Himit">
+              </div>
+          </div>
+        </div>
+
+        <!-- End Welcome Section -->
+        
+        <!-- Departemen Section -->
+
+        <section id="departemen">
+          <div class="departemen shadow col-10 m-auto">
+            <div class="logo row p-2 py-5 my-5 d-flex justify-content-center m-auto">
+              <div class="title text-center my-4">
+                <h3>Departemen HIMIT</h3>
+              </div>
+              <div class="col-3 text-center">
+              <a data-bs-toggle="modal" data-bs-target="#badan-inti"><img src="img/badan inti.png" alt="badan inti"></a> 
+              </div>
+              <div class="col-3 text-center">
+                <a data-bs-toggle="modal" data-bs-target="#dagri"><img src="img/dagri.png" alt="dagri"></img></a>
+                </div>
+              <div class="col-3 text-center">
+                <a data-bs-toggle="modal" data-bs-target="#medinfo"><img src="img/medinfo.png" alt="medinfo"></a>
+              </div>
+              <div class="col-3 text-center">
+                <a data-bs-toggle="modal" data-bs-target="#lugri"><img src="img/lugri.png" alt="lugri"></a>
+              </div>
+              <div class="col-3 text-center my-3">
+                <a data-bs-toggle="modal" data-bs-target="#psdm"><img src="img/psdm.png" alt="psdm"></a>
+              </div>
+              <div class="col-3 text-center my-3">
+                <a data-bs-toggle="modal" data-bs-target="#ristek"><img src="img/ristek.png" alt="ristek"></a>
+              </div>
+              <div class="col-3 text-center my-3">
+                <a data-bs-toggle="modal" data-bs-target="#senor"><img src="img/senor.png" alt="senor"></a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- End Departemen -->
+
+        <!-- Modal -->
+        
+        <div class="modal" tabindex="-1" id="badan-inti">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content px-3">
+              <div class="modal-header">
+                <h2 class="modal-title">Badan Inti</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h3>Latar Belakang Departemen : </h3>
+                <p>Sebuah badan yang berisi Kahima, Wakahima, Kepala dan Staff Divisi Kesekretariatan, Kepala dan Staff Divisi Administrasi, dan Kepala dan Staff Divisi Keuangan yang bertugas memfasilitasi sarana dan prasarana departemen lain dalam menjalankan kewajibannya, serta mengontrol dan bertanggung jawab atas kinerja fungsionaris HIMIT PENS 2021.</p>
+                <h3>Visi : </h3>
+                <p>Terwujudnya HIMIT yang bersinergi demi menunjang prestasi anggotanya</p>
+                <h3>Misi : </h3>
+                <ol>
+                  <li>Mengoptimalkan potensi sumber daya mahasiswa Teknik Informatika PENS</li>
+                  <li>Mempererat kekeluargaan antar anggota HIMIT dan tanggap akan perkembangan informasi di lingkup HIMIT</li>
+                  <li>Mengembangkan minat dan bakat serta keprofesian agar﻿ berprestasi diberbagai bidang</li>
+                  <li>Membangun citra yang baik dan meningkatkan kualitas kerjasama diranah eksternal dan membangun kesejahteraan finansial</li>
+                </ol>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal" tabindex="-1" id="dagri">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content px-3">
+              <div class="modal-header">
+                <h2 class="modal-title">Dalam Negeri</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h3>Latar Belakang Departemen : </h3>
+                <p>Departemen yang bergerak dalam lingkup internal HIMIT untuk memberikan kesejahteraan bagi mahasiswa, menjaga tali silaturahim antar anggota  HIMIT, serta memfasilitasi penyediaan barang dengan identitas HIMIT.</p>
+                <h3>Visi : </h3>
+                <p>Mewujudkan Dagri HIMIT yang peka dan responsif terhadap kesejahteraan Mahasiswa, serta secara intensif menjaga hubungan silaturahmi antar elemen HIMIT maupun anggotanya</p>
+                <h3>Misi : </h3>
+                <ol>
+                  <li>Menyelenggarakan kegiatan-kegiatan yang bertujuan untuk menjaga tali silaturahim, sehingga meningkatnya intensitas berkumpulnya seluruh anggota HIMIT</li>
+                  <li>Menyampaikan informasi serta memberikan pendampingan kepada Mahasiswa aktif Teknik Informatika PENS dalam  bidang advokasi dan kesejahteraan serta memberikan  apresiasi bagi mahasiswa yang telah berprestasi</li>
+                  <li>Mengoordinir serta memfasilitasi penyediaan barang-barang dengan identitas HIMIT bagi anggotanya</li>
+                </ol>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal" tabindex="-1" id="medinfo">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content px-3">
+              <div class="modal-header">
+                <h2 class="modal-title">Media dan Informasi</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h3>Latar Belakang Departemen : </h3>
+                <p>Departemen Media dan Informasi merupakan departemen yang dibentuk untuk melakukan pencitraan himpunan, jurusan, dan PENS kepada publik dengan melakukan penyebaran informasi, publikasi, serta dokumentasi kegiatan himpunan melalui berbagai media milik HIMIT.</p>
+                <h3>Visi : </h3>
+                <p>Terbentuknya citra HIMIT yang positif baik dari dalam maupun luar lingkup HIMIT melalui pengelolaan media dan informasi yang inovatif serta terstruktur.</p>
+                <h3>Misi : </h3>
+                <ol>
+                  <li>Mengoptimalkan penyebaran Informasi, publikasi, dan dokumentasi kegiatan himpunan melalui berbagai jenis media informasi baik ke dalam maupun ke luar HIMIT</li>
+                  <li>Memberikan apresiasi kepada fungsionaris HIMIT serta warga HIMIT yang berprestasi</li>
+                </ol>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal" tabindex="-1" id="lugri">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content px-3">
+              <div class="modal-header">
+                <h2 class="modal-title">Luar Negeri</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h3>Latar Belakang : </h3>
+                <p>Departemen yang berperan sebagai penghubung HIMIT dalam membangun relasi dengan pihak eksternal, melakukan kegiatan sosial, membangun citra yang baik untuk HIMIT, serta membangun kesejahteraan finansial melalui kegiatan wirausaha.</p>
+                <h3>Visi : </h3>
+                <p>Terjalinnya relasi dengan pihak eksternal guna meningkatkan citra positif dan menambah wawasan HIMIT, HIMIT yang berjiwa sosial, serta menunjang kesejahteraan finansial HIMIT</p>
+                <h3></h3>
+                <ol>
+                  <li>Menambah relasi serta wawasan organisasi bagi HIMIT</li>
+                  <li>Menciptakan dan menjaga relasi serta meningkatkan kualitas kerjasama HIMIT dengan pihak instansi dan menambah wawasan dunia kerja</li>
+                  <li>Menumbuhkan dan meningkatkan rasa kepedulian sosial mahasiswa aktif HIMIT terhadap lingkungan masyarakat</li>
+                  <li>Menyelenggarakan kegiatan wirausaha untuk menunjang kesejahteraan finansial HIMIT</li>
+                </ol>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal" tabindex="-1" id="ristek">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content px-3">
+              <div class="modal-header">
+                <h2 class="modal-title">Riset dan Teknologi</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h3>Latar Belakang : </h3>
+                <p>Departemen yang menaungi mahasiswa Teknik Informatika PENS dalam bidang akademis, keilmiahan serta pengembangan hardskill dalam bidang IT.</p>
+                <h3>Visi : </h3>
+                <p>Terwujudnya Departemen Ristek yang mampu memberikan wadah pengembangan dalam bidang minat bakat, akademik dan keprofesian untuk menunjang prestasi bagi mahasiswa Teknik Informatika PENS.</p>
+                <h3>Misi : </h3>
+                <ol>
+                  <li>Menyediakan wadah dalam menunjang prestasi akademik dan keprofesian mahasiswa IT</li>
+                  <li>Mengadakan pelatihan (Workshop/Webinar) seputar keprofesian IT dengan sasaran internal mahasiswa IT atau PENS dan pihak luar</li>
+                  <li>Melakukan pendampingan, koordinasi dan fasilitasi terhadap komunitas teknologi</li>
+                  <li>Memberikan wadah riset di bidang teknologi untuk mengembangkan fasilitas digital yang dimiliki HIMIT</li>
+                </ol>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal" tabindex="-1" id="senor">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content px-3">
+              <div class="modal-header">
+                <h2 class="modal-title">Seni dan Olahraga</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h3>Latar Belakang : </h3>
+                <p>Departemen yang menciptakan wadah refreshing bagi anggota HIMIT serta mengadakan kegiatan seni dan juga pertandingan olahraga untuk mahasiswa aktif HIMIT. Tidak hanya itu departemen ini juga menjalin koordinasi dengan komunitas olahraga yang ada di HIMIT.</p>
+                <h3>Visi : </h3>
+                <p>Menjadi wadah yang dapat mengembangkan minat dan bakat mahasiswa Teknik Informatika PENS serta meningkatkan prestasi non-akademik di bidang seni dan olahraga.</p>
+                <h3>Misi : </h3>
+                <ol>
+                  <li>Meningkatkan prestasi non-akademik dengan memberikan pendampingan serta memfasilitasi kontingen dan komunitas olahraga</li>
+                  <li>Memberikan wadah untuk mengembangkan minat dan bakat mahasiswa Teknik Informatika PENS dalam bidang seni dan olahraga</li>
+                  <li>Memberikan informasi mengenai bidang seni dan olahraga</li>
+                </ol>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal" tabindex="-1" id="psdm">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content px-3">
+              <div class="modal-header">
+                <h2 class="modal-title">PSDM</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h3>Latar Belakang : </h3>
+                <p>Departemen yang berperan aktif dalam mengembangkan individu dan organisasi melalui kegiatan pengaderan, pelatihan, serta optimalisasi potensi anggota HIMIT agar bermanfaat demi meningkatkan kualitas anggota HIMIT.</p>
+                <h3>Visi : </h3>
+                <p>Terwujudnya Departemen PSDM sebagai sarana pengembangan sumber daya mahasiswa yang optimal, bagi seluruh anggota dan fungsionaris HIMIT</p>
+                <h3>Misi : </h3>
+                <ol>
+                  <li>Melaksanakan pengembangan mahasiswa Teknik Informatika PENS sesuai PPSDM HIMIT</li>
+                  <li>Mengadakan pelatihan untuk fungsionaris HIMIT</li>
+                  <li>Melakukan  pemetaan dan kontroling terhadap perkembangan mahasiswa Teknik Informatika PENS</li>
+                  <li>Memberikan bekal dan wadah untuk merancang kaderisasi HIMIT</li>
+                </ol>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- END Modal -->
+
+        <!-- Artikel -->
+
+        <div class="artikel flex-column py-5">
+          <div class="artikel-top py-lg-4">
+            <div class="section-title text-center"><h3>Artikel Terbaru</h3></div>
+          </div>
+          <div class="artikel-bottom d-flex justify-content-center">
+            <div class="isi-artikel d-flex justify-content-start align-items-start flex-row">
+              <div class="card" style="width: 18rem;">
+                <img src="img/Hacking 101.jpeg" class="card-img-top" alt="...">
+                <div class="card-body align-items-start">
+                  <h6>05/09/2021</h6>
+                  <h5 class="card-title">Introduction to Ethical 
+                    Hacking to Increase Your 
+                    Security</h5>
+                  <p class="card-text">Published in Medium HIMIT PENS
+                    Written by Muhammad Izzat</p>
+                  <a href="artikel-september-1.html" class="btn btn-primary">Selengkapnya</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="img/Juara.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6>02/09/2021</h6>
+                  <h5 class="card-title">Belum bias NGODING, tapi
+                    ingin ikut lomba di bidang
+                    IT?</h5>
+                  <p class="card-text">Published in Medium HIMIT PENS
+                    Written by Mega Putri Rahmawati Darta
+                    </p>
+                  <a href="artikel-september-2.html" class="btn btn-primary">Selengkapnya</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="img/Zoom.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6>02/09/2021</h6>
+                  <h5 class="card-title">HIMIT SHARING CENTER 
+                    SEASON 1 — Kupas Tuntas 
+                    Mata</h5>
+                  <p class="card-text">Published in Medium HIMIT PENS
+                    Written by Madani Ayin</p>
+                  <a href="artikel-september-3.html" class="btn btn-primary">Selengkapnya</a>
+                </div>
+              </div>
+              <div class="tombol">
+                <a href="artikel.html" class="btn btn-lg rounded-pill px-5">Lainnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- END Artikel -->
+
+        <!-- Agenda -->
+        
+        <div class="agenda flex-column py-5">
+          <div class="agenda-top py-lg-4">
+            <div class="section-title text-center"><h3>Agenda Terbaru</h3></div>
+          </div>
+          <div class="agenda-bottom d-flex justify-content-center">
+            <div class="isi-agenda d-flex justify-content-start align-items-start flex-row">
+              <div class="card shadow" style="width: 18rem;">
+                <img src="img/agenda 1.jpg" class="card-img-top" alt="...">
+                <div class="card-body align-items-start">
+                  <h5 class="card-title">Webinar Mentalitas
+                    "Building the Right Mentality
+                    During an Ever-Changing Era"</h5>
+                  <p class="card-text"></p>
+                  <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#agenda1">Lihat</a>
+                </div>
+              </div>
+              <div class="card shadow" style="width: 18rem;">
+                <img src="img/agenda 2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tips for Writing IT Business 
+                    Plan Proposal and Managing 
+                    Proposal Finance</h5>
+                  <p class="card-text"></p>
+                  <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#agenda2">Lihat</a>
+                </div>
+              </div>
+              <div class="card shadow" style="width: 18rem;">
+                <img src="img/agenda 3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">UI/UX Implementation : How to 
+                    Evaluate UI UX Design and 
+                    Create A Portofolio According 
+                    to Company Standards</h5>
+                  <p class="card-text"></p>
+                  <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#agenda3">Lihat</a>
+                </div>
+              </div>
+              <div class="pencet">
+                <a href="agenda.html" class="btn btn-lg rounded-pill px-5">Lainnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- END Agenda -->
+        <!-- Modal Agenda -->
+        <div class="modal" id="agenda1" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Webinar Mentalitas "Building the Right Mentality During an Ever-Changing Era"</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>03 Oktober 2021</h5>
+                <p>Webinar Mentalitas merupakan acara yang diselenggarakan oleh HIMIT PENS untuk memfasilitasi mahasiswa aktif agar dapat mengenali pentingnya kesehatan mental pada dunia perkuliahan. Webinar ini mengusung tema "Building the Right Mentality During an Ever - Changing Era", yang dilaksanakan pada hari Minggu, 03 Oktober 2021 melalui platfrom Zoom Meeting.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="modal" id="agenda2" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Tips for Writing IT Business Plan Proposal and Managing Proposal Finance</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>11 September 2021</h5>
+                <p>Webinar Pembekalan Lomba merupakan acara tahunan dari Departemen RISTEK untuk mewadahi mahasiswa aktif agar lebih siap dalam menghadapi lomba. Webinar ini mengusung tema "Tips for Writing IT Business Plan Proposal and Managing Proposal Finance", yang diadakan pada tanggal 11 September 2021 melalui platform Zoom Conference.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="modal" id="agenda3" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Webinar HIMIT PENS X BINAR ACADEMY "UI/UX Impelementation"</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h5>04 September 2021</h5>
+                <p>Webinar HIMIT PENS x BINAR ACADEMY "UI/UX Impelementation" mengangkat tema "How to Evaluate UI UX Design an Create A Portfolio According to Company Standards." dengan 2 pemateri yaitu Vindia Hardikurnia sebagai Product Designer (UX) dari Binar Academy dan Ardi Winata sebagai Instructional Designer (UI) dari Binar Academy yang diadakan pada Hari Sabtu, 04 September 2021 via Zoom Meeting.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>        
+        <!-- End Modal Agenda -->
+        <!-- Footer -->
+
+          <div class="jumbotron-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 info-footer">
+                  <h6 style="font-weight: 600;">KONTAK</h6>
+                  <p>Email     : himit.pens@gmail.com</p>
+                  <p>No. Telp. : 0821-4656-3906</p><br>
+                </div>
+                <div class="col-lg-6" style="font-size: 14px;">
+                  <h6 style="font-weight: 600;">ALAMAT</h6>
+                  <p>Institut Teknologi Sepuluh Nopember, Kampus, Jl. Raya ITS, Keputih, Kec. Sukolilo, Kota SBY, Jawa Timur 60111, Indonesia</p><br>
+                </div>
+                <div class="col-lg-3" style="font-size: 14px;">
+                  <h6 style="font-weight: 600;">PRANALA LUAR</h6>
+                  <p>Politeknik Elektronika Negeri Surabaya</p>
+                  <p style="line-height: 0.7px;">Prodi Teknik Informatika PENS</p><br>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Peta -->
+      
+        <iframe class="peta" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6920240024892!2d112.79156701437105!3d-7.275841773517513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa10ea2ae883%3A0xbe22c55d60ef09c7!2sPoliteknik%20Elektronika%20Negeri%20Surabaya!5e0!3m2!1sid!2sid!4v1635012875440!5m2!1sid!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" style="padding-right: -12px;"></iframe>
+      
+        <!-- End Peta -->
+
+        <!-- Sosmed -->
+        <div class="jumbotron-sosmed">
+          <div class="container">
+            <div class="col tampil-horizontal">
+              <ul>
+                <li><a href="https://web.facebook.com/himitpens?_rdc=1&_rdr"><img src="img/fb.png"></a></li>
+                <li><a href="https://twitter.com/himitpens"><img src="img/twitter.png"></a></li>
+                <li><a href="https://www.instagram.com/himitpens/"><img src="img/instagram.png"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCkzRFCIhe9pDsmWtIgP_uAw"><img src="img/yt.png"></a></li>
+                <li><a href="https://www.linkedin.com/company/himitpens/mycompany/"><img src="img/linkedin.png"></a></li>
+                <li><a href="https://medium.com/himit-pens"><img src="img/M.png"></a></li>
+                <li><a href="https://open.spotify.com/show/5ADBxdUSvSvrty1skscpmr?si=I9dQ6ehWS5K9FPqxLOfjDw&dl_branch=1&nd=1"><img src="img/spotify.png"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End Sosmed -->
+
+        <!-- Credits -->
+
+        <div class="jumbotron-credits">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <p>2021 All Right Reserved By Tim IAI</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- End Credits -->
+  
+        <!-- End Footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

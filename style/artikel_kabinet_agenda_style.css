@@ -1,0 +1,408 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar-brand{
+    font-weight: 600;
+}
+
+.navbar {
+    padding-top: 15px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+}
+
+.jumbotron {
+    background-size: cover;
+    height: 400px;
+}
+
+.jumbotron-footer {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.jumbotron-footer {
+    background-color: #0D3F8A;
+    background-size: cover;
+    height: 370px;
+}
+
+.jumbotron-sosmed {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.jumbotron-sosmed {
+    background-color: #0D3F8A;
+    background-size: cover;
+    height: 100px;
+    margin-top: -20px;
+}
+
+.jumbotron-credits {
+    padding-top: 10px;
+    color: white;
+}
+
+.jumbotron-credits {
+    background-color: #08306D;
+    background-size: cover;
+    height: 50px;
+    margin-top: -35px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Judul Banner */
+.judul {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.display-4 {
+    font-size: 40px;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+
+/* Info Panel */
+.info-panel {
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    margin-top: -100px;
+    background-color: white;
+}
+
+.info-panel img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 8px;
+}
+
+/* Text Info */
+.text-info {
+    text-align: center;
+    margin-top: 50px;
+    color: black;
+    font-family: 'poppins';
+}
+
+.text-info h2 {
+    font-weight: 600;
+    color: black;
+}
+
+.btn {
+    border-color: #171643;
+    background-color: #171643;
+}
+
+.text-info p {
+    color: black;
+}
+
+.text-periode {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    color: black;
+    font-family: 'poppins';
+}
+
+.text-periode h2 {
+    font-weight: 600;
+    color: black;
+}
+
+.visimisi {
+    background-color: #0D3F8A;
+    color: white;
+}
+
+.visi {
+    padding: 30px;
+}
+
+.misi {
+    padding: 30px;
+}
+
+.filosofi {
+    margin-top: 60px;
+    padding:20px;
+}
+
+.logo-setting {
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.info-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.footer-text {
+    padding: 50px;
+    background-color: #0D3F8A;
+    color: white;
+}
+
+.info-footer {
+    line-height: 0.7;
+}
+
+.info-footer p {
+    font-size: 14px;
+}
+
+.peta {
+    margin-top: -40px;
+}
+
+.sosmed {
+    margin-top: -10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #0D3F8A;
+    color: white;
+}
+
+.sosmed a img{
+    width: 40px;
+}
+
+.tampil-horizontal {
+    margin-left: -24px;
+}
+
+.tampil-horizontal ul {
+    text-align: center;
+}
+
+.tampil-horizontal ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.tampil-horizontal ul li a img{
+    width: 28px;
+}
+
+/* ARTIKEL */
+.card-area {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-family: 'poppins';
+    border-radius: 0px;
+}
+
+.card img {
+    height: 180px;
+}
+
+.card-title {
+    font-family: 'poppins';
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 12px;
+    line-height: 1px;
+}
+
+.card-body h6{
+    color: #C1C1C1;
+}
+
+.card-body a {
+    margin-top: 20px;
+}
+
+.tanggal {
+    margin-bottom: 20px; 
+    font-weight: 600; 
+    font-family: 'poppins';
+    text-align: center;
+}
+
+/* AGENDA */
+.card-agenda {
+    border: none;
+}
+
+.card-agenda img{
+    padding: 10px;
+    height: 350px;
+}
+
+.card-agenda .card-body {
+    height: 230px;
+}
+
+.card-agenda .btn {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* DETAIL ARTIKEL */
+.bg-nav {
+    background-color: white;
+}
+
+.judul-artikel {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 20px;
+
+}
+
+.judul-artikel h2{
+    font-weight: 600;
+}
+
+.content {
+    padding: 20px;
+}
+
+
+/* IPAD VERSION */
+@media (min-width: 768px) {
+    .judul {
+        margin-top: 100px;
+        font-size: 30px;
+    }
+
+    .lead {
+        font-size: 22px;
+    }
+    
+    .display-4 {
+        font-size: 50px;
+    }
+
+    .info-logo {
+        width: 350px;
+    }
+
+    .visi {
+        border-right: 1px solid white;
+    }
+
+}
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        color: white !important; 
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    }
+
+    .nav-link {
+        margin-right: 10px;
+    }
+
+    .nav-artikel .nav-link:hover {
+        border-bottom: 3px solid white;
+        margin-bottom: -11px;
+    }
+
+    .nav-link:hover {
+        border-bottom: 3px solid white;
+        margin-bottom: -3px;
+    }
+
+    .jumbotron {
+        margin-top: -90px;
+        height: 550px;
+    }
+
+    .judul {
+        margin-top: 200px;
+        font-size: 30px;
+    }
+
+    .display-4 {
+        font-size: 80px;
+    }
+
+    .lead {
+        font-size: 20px;
+    }
+
+    .info-panel {
+        margin-top: -125px;
+    }
+
+    .info-panel img {
+        width: 550px;
+    }
+
+    .text-info {
+        margin-top: 100px;;
+    }
+
+    .visi {
+        padding: 40px;
+    }
+    
+    .misi {
+        padding: 40px;
+    }
+
+    .info-logo {
+        width: 350px;
+    }
+
+    .jumbotron-footer {
+        height: 175px;
+    }
+
+    .tampil-horizontal ul li a img{
+        width: 40px;
+    }
+
+    /* ARTIKEL */
+    .tanggal {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+    
+    .visi {
+        border-right: 1px solid white;
+    }
+
+    .bg-nav {
+        background-color: #0D3F8A;
+    }
+
+}

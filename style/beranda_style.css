@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+
+.navbar {
+    padding-top: 5px;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* End Navbar */
+
+/* Welcome */
+
+.welcome {
+    background-image: url("../img/banner beranda.png");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding: 0 10vw;
+    margin-bottom: -80px;
+    margin-top: -100px;
+}
+
+.welcome h1 {
+    font-size: 76px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+.welcome .btn {
+    background-color: #171643;
+    border-color: #171643;
+}
+
+.caption h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.panel-info {
+    border-radius: 12px;
+}
+
+.panel-info img {
+    width: 116px;
+    height: 92px;
+}
+
+/* End Welcome */
+
+/* Departemen */
+
+.departemen {
+    border-radius: 12px;
+}
+
+.departemen img {
+    width: 92px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 80%;
+}
+
+.title h3 {
+    font-weight: 600;
+}
+
+/* END Departemen */
+
+/* Modal */
+
+.modal-body h3 {
+    font-size: 25px;
+}
+
+.modal-body p,
+li {
+    font-size: 13px;
+}
+
+/* END Modal */
+
+/* Artikel */
+
+.artikel {
+    background-image: url('../img/banner\ artikel\ in\ beranda.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.artikel::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #4d8ed8 0%, rgb(54, 32, 102) 100%);
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.artikel-top .section-title h3 {
+    font-weight: 600;
+    color: white;
+    margin-top: -15px;
+}
+
+.isi-artikel .card {
+    margin-right: 15px;
+}
+
+.isi-artikel .card .card-body {
+    height: 270px;
+}
+
+.isi-artikel .card .card-body .btn {
+    margin-top: 25px;
+}
+
+.isi-artikel .tombol {
+    margin-top: 150px;
+}
+
+.isi-artikel .tombol .btn {
+    border-color: white;
+    color: white;
+    font-weight: 400;
+    border: solid;
+}
+
+.isi-artikel .card .btn {
+    background-color: #171643;
+    border-color: #171643;
+}
+
+.isi-artikel .card img {
+    height: 180px;
+
+}
+
+.isi-artikel h6 {
+    color: #C1C1C1;
+}
+
+.isi-artikel h5 {
+    font-weight: 600;
+}
+
+.isi-artikel p {
+    font-size: 12px;
+}
+
+/* END Artikel */
+
+/* Agenda */
+
+.agenda-top .section-title h3 {
+    font-weight: 600;
+    margin-top: -15px;
+}
+
+.isi-agenda .card {
+    margin-right: 15px;
+    padding: 10px;
+}
+
+
+
+.isi-agenda .pencet {
+    margin-top: 150px;
+}
+
+.isi-agenda .pencet .btn {
+    border-color: black;
+    color: black;
+    font-weight: 400;
+    border: solid;
+}
+
+.isi-agenda .card .btn {
+    background-color: #171643;
+    border-color: #171643;
+}
+
+.isi-agenda .card img {
+    height: 208px;
+}
+
+.isi-agenda h5 {
+    font-weight: 600;
+}
+
+.isi-agenda .card .card-body {
+    height: 216px;
+}
+
+.isi-agenda .card:nth-child(2) .card-body .btn {
+    margin-top: 25px;
+}
+
+.isi-agenda .card:nth-child(1) .card-body .btn {
+    margin-top: 25px;
+}
+
+
+/* END Agenda */
+
+/* Jumbotron */
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+}
+
+.jumbotron {
+    background-size: cover;
+    height: 400px;
+}
+
+.jumbotron-footer {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.jumbotron-footer {
+    background-color: #0D3F8A;
+    background-size: cover;
+    height: 370px;
+}
+
+.jumbotron-sosmed {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.jumbotron-sosmed {
+    background-color: #0D3F8A;
+    background-size: cover;
+    height: 80px;
+    margin-top: -20px;
+
+}
+
+.jumbotron-credits {
+    padding-top: 10px;
+    color: white;
+}
+
+.jumbotron-credits {
+    background-color: #08306D;
+    background-size: cover;
+    height: 50px;
+    margin-top: -35px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* END Jumbotron */
+
+/* Footer */
+
+.footer-text {
+    padding: 50px;
+    background-color: #0D3F8A;
+    color: white;
+}
+
+.info-footer {
+    line-height: 0.7;
+}
+
+.info-footer p {
+    font-size: 14px;
+}
+
+.peta {
+    margin-top: -40px;
+}
+
+.sosmed {
+    margin-top: -10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #0D3F8A;
+    color: white;
+}
+
+.sosmed a img {
+    width: 40px;
+}
+
+.tampil-horizontal {
+    margin-left: -24px;
+}
+
+.tampil-horizontal ul {
+    text-align: center;
+}
+
+.tampil-horizontal ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.tampil-horizontal ul li a img {
+    width: 28px;
+}
+
+/* END Footer */
+
+/* Media HP */
+
+@media (max-width: 576px) {
+    /* Welcome */
+
+    .welcome {
+        height: 100vh;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .welcome h1 {
+        font-size: 56px;
+        margin-bottom: 5px;
+    }
+
+    .welcome h3 {
+        font-size: 19px;
+        margin-bottom: 5px;
+    }
+
+    /* END Welcome */
+
+    /* Departemen */
+
+    .departemen img {
+        width: 55px;
+    }
+
+    .departemen .logo {
+        width: 100%;
+    }
+
+    /* END Departemen */
+
+    /* Artikel */
+
+    .artikel-bottom .isi-artikel {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .isi-artikel .card {
+        margin-right: 0px;
+    }
+
+    .isi-artikel .card {
+        margin: 15px;
+    }
+
+    .isi-artikel .tombol {
+        margin-top: 5px;
+        padding: 0 45px;
+        margin-bottom: 10px;
+    }
+
+    .artikel-top {
+        width: 360px;
+        padding-top: 10px;
+    }
+
+    .artikel-top h3 {
+        margin-top: 5px;
+    }
+
+    /* END Artikel */
+
+    /* Agenda */
+
+    .agenda-bottom .isi-agenda {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .isi-agenda .card {
+        margin-right: 0px;
+    }
+
+    .isi-agenda .card {
+        margin: 15px;
+    }
+
+    .isi-agenda .pencet {
+        margin-top: 5px;
+        padding: 0 45px;
+        margin-bottom: 10px;
+    }
+
+    .agenda-top {
+        width: 360px;
+        padding-top: 10px;
+    }
+
+    .agenda-top h3 {
+        margin-top: 5px;
+    }
+
+    /* END Agenda */
+
+
+}
+
+/* END Media HP */
+
+/* Media Tab */
+
+@media (max-width: 991px) {
+    /* Navbar */
+
+    .navbar-brand {
+        font-weight: 600;
+    }
+
+    .navbar {
+        padding-top: 15px;
+    }
+
+    /* END Navbar */
+
+    /* Welcome */
+
+    .welcome {
+        margin-top: 0px;
+    }
+
+    .panel-info img {
+        margin: auto;
+    }
+
+    .welcome h1 {
+        font-size: 66px;
+        margin-bottom: 5px;
+    }
+
+    .welcome h3 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    /* END Welcome */
+
+    /* Departemen */
+
+    .departemen .logo {
+        width: 80%;
+    }
+
+    /* END Departemen */
+
+    /* Artikel */
+
+    .artikel-bottom .isi-artikel {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .isi-artikel .card {
+        margin-right: 0px;
+    }
+
+    .isi-artikel .card {
+        margin: 15px;
+    }
+
+    .isi-artikel .tombol {
+        margin-top: 5px;
+        padding: 0 75px;
+        margin-bottom: 10px;
+    }
+
+    .artikel-top {
+        width: auto;
+        padding-top: 10px;
+    }
+
+    .artikel-top h3 {
+        margin-top: 5px;
+    }
+
+    /* END Artikel */
+
+    /* Agenda */
+
+    .agenda-bottom .isi-agenda {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .isi-agenda .card {
+        margin-right: 0px;
+    }
+
+    .isi-agenda .card {
+        margin: 15px;
+    }
+
+    .isi-agenda .pencet {
+        margin-top: 5px;
+        padding: 0 75px;
+        margin-bottom: 10px;
+    }
+
+    .agenda-top {
+        width: auto;
+        padding-top: 10px;
+    }
+
+    .agenda-top h3 {
+        margin-top: 5px;
+    }
+
+    /* END Agenda */
+
+}
+
+/* END Media Tab */
+
+/* Media Random */
+
+@media (min-width: 991px) {
+
+    /* Navbar */
+
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .navbar-brand {
+        padding-left: 90px;
+    }
+
+    .navbar {
+        padding-right: 100px;
+    }
+
+    .nav-link {
+        margin-right: 10px;
+    }
+
+    .nav-link:hover {
+        border-bottom: 3px solid white;
+        margin-bottom: -3px;
+    }
+
+    /* END Navbar */
+
+    /* Jumbotron */
+
+    .jumbotron-credits {
+        width: 100vw;
+    }
+
+    .jumbotron-footer {
+        background-color: #0D3F8A;
+        background-size: cover;
+        height: 180px;
+    }
+
+
+    /* END Jumbotron */
+}
+
+/* END Media Random */
